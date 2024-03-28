@@ -86,6 +86,6 @@ if vim.g.vscode then
             autocmd ModeChanged [vV\x16]*:* call VSCodeNotify('nvim-theme.normal')
         augroup END
     ]], false)
-endif
+end
 
 
