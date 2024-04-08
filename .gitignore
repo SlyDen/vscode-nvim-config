@@ -1,6 +1,14 @@
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data
 
-# Created by https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,visualstudiocode
+# Created by https://www.toptal.com/developers/gitignore/api/macos
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos
 
 ### macOS ###
 # General
@@ -35,23 +43,4 @@ Temporary Items
 # iCloud generated files
 *.icloud
 
-### VisualStudioCode ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/*.code-snippets
-
-# Local History for Visual Studio Code
-.history/
-
-# Built Visual Studio Code Extensions
-*.vsix
-
-### VisualStudioCode Patch ###
-# Ignore all local history of files
-.history
-.ionide
-
-# End of https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode
+# End of https://www.toptal.com/developers/gitignore/api/macos
